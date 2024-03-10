@@ -5,123 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <link rel="stylesheet" href="css/index.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
   </head>
   <body>
-    <style>
-      nav {
-        background-color: gray;
-      }
-    </style>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+    <header class="header">
+      <nav class="header__nav container">
+        <ul class="header__menu">
+          <li><a class="menu__item" href="#">Home</a></li>
+          <li><a class="menu__item" href="#">Product</a></li>
+          <li><a class="menu__item" href="#">Pricing</a></li>
+          <li><a class="menu__item" href="#">About</a></li>
+          <li><a class="menu__item" href="#">Contact</a></li>
         </ul>
 
-        <div>
+        <div class="header__logo">
           <img src="img/logo.png" alt="Logo" />
         </div>
 
-        <ul>
-          <li><a href="https://twitter.com"><img src="img/twitter1.png" alt="twitter"></a></li>
-          <li><a href="https://www.facebook.com"><img src="img/facebook1.png" alt="facebook"></a></li>
-          <li><a href="https://www.instagram.com"><img src="img/inst1.png" alt="instagram"></a></li>
+        <ul class="social-links">
+          <li><a class="social-links__link href="https://twitter.com"><img src="img/twitter1.png" alt="twitter"></a></li>
+          <li><a class="social-links__link href="https://www.facebook.com"><img src="img/facebook1.png" alt="facebook"></a></li>
+          <li><a class="social-links__link href="https://www.instagram.com"><img src="img/inst1.png" alt="instagram"></a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>The best products start with Figma</h1>
-        <h4>
+      <section class="section">
+        <h1 class="section__title">The best products start with Figma</h1>
+        <p class="section__subtitle">
           Most calendars are designed for teams. Slate is designed for
           freelancers
-        </h4>
-        <button>Try for free</button>
+        </p>
+        <button class="button">Try for free</button>
       </section>
 
-      <section>
-        <h2>Features</h2>
-        <h4>
+      <section class="section">
+        <h2 class="features__title">Features</h2>
+        <p class="features__subtitle">
           Most calendars are designed for teams. Slate is designed for
           freelancers
-        </h4>
-        <ul>
-          <li>
-            <img src="img/circle.png" alt="Vector" />
-            <h3>OpenType features Variable fonts</h3>
-            <p>
+        </p>
+        <ul class="feature__list">
+          <li class="feature__list-item">
+            <img class="feature__list-icon" src="img/circle.png" alt="Vector" />
+            <h3 class="feature__list-title">OpenType features Variable fonts</h3>
+            <p class="feature__list-subtitle">
               Slate helps you see how many more days you need to work to reach
               your financial goal.
             </p>
           </li>
-          <li>
-            <img src="img/mdi_draw.png" alt="draw" />
-            <h3>Design with real data</h3>
-            <p>
+          <li class="feature__list-item">
+            <img class="feature__list-icon" src="img/mdi_draw.png" alt="draw" />
+            <h3 class="feature__list-title">Design with real data</h3>
+            <p class="feature__list-subtitle">
               Slate helps you see how many more days you need to work to reach
               your financial goal.
             </p>
           </li>
-          <li>
-            <img src="img/mdi_brush.png" alt="brush" />
-            <h3>Fastest way to take action</h3>
-            <p>
+          <li class="feature__list-item">
+            <img class="feature__list-icon" src="img/mdi_brush.png" alt="brush" />
+            <h3 class="feature__list-title">Fastest way to take action</h3>
+            <p class="feature__list-subtitle">
               Slate helps you see how many more days you need to work to reach
               your financial goal.
             </p>
           </li>
         </ul>
-        <div>
+        <div class="section__feature-image">
           <img width="800" src="img/screen.png" alt="screen contact" />
         </div>
       </section>
 
-      <section>
-        <h2>Fastest way to organize</h2>
-        <h4>
+      <section class="section">
+        <h2 class="organize__title">Fastest way to organize</h2>
+        <p class="organize__subtitle">
           Most calendars are designed for teams. Slate is designed for
           freelancers
-        </h4>
-        <button>Try for free</button>
-        <div>
+        </p>
+        <button class="button">Try for free</button>
+        <div class="organize__image">
           <img src="img/Frame 18.png" alt="laptop" />
         </div>
       </section>
-      <section>
-        <div>
+      <section class="section">
+        <div class="prototyping__image">
           <img width="400" src="img/vector.png" alt="vector_img" />
         </div>
-        <h3>At your fingertips</h3>
-        <h2>Lightning fast prototyping</h2>
-        <h3>Subscribe to our Newsletter</h3>
-        <h4>Available exclusivery on Figmaland</h4>
+        <p class="prototyping__text">At your fingertips</p>
+        <h2 class="prototyping__title">Lightning fast prototyping</h2>
+        <p class="prototyping__subtitle">Subscribe to our Newsletter</p>
+        <p class="prototyping__text">Available exclusivery on Figmaland</p>
         <div>
-          <input type="emeil" placeholder="Your Email" />
-          <button type="submit">Subscribe</button>
+          <input class="prototyping__email" type="emeil" placeholder="Your Email" />
+          <button class="button" type="submit">Subscribe</button>
         </div>
       </section>
-      <section>
-        <h2>Partners</h2>
-        <h4>
+      <section class="section">
+        <h2 class="partners__title">Partners</h2>
+        <p class="partners__subtitle">
           Most calendars are designed for teams. Slate is designed for
           freelancers
-        </h4>
-
-        <div>
+        </p>
+        <div class="partners__image">
           <img src="img/row.png" alt="partners" />
           <img src="img/row1.png" alt="partners" />
         </div>
-        <button>Try For Free</button>
+        <button class="button">Try For Free</button>
       </section>
-      <section>
+      <section class="section">
         <h2>Testimonials</h2>
         <img src="img/ibm.png" alt="IBM" />
         <p>
@@ -135,7 +130,7 @@
         </div>
         <button>More Testimonials</button>
       </section>
-      <section style="background-color: rgb(26, 26, 86);">
+      <section class="section">
         <h2>Pricing</h2>
         <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
         <div>
@@ -210,7 +205,7 @@
             <button>Order Now</button>
         </div>
       </section>
-      <section>
+      <section class="section">
         <h2>Contact Us</h2>
         <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
         <div>
@@ -237,7 +232,7 @@
           </ul>
         </div>
       </section>
-      <footer style="background-color: rgb(39, 39, 112);">
+      <footer class="footer">
         <div>
           <ul>
             <li><h3>Pages</h3></li>
